@@ -26,12 +26,12 @@ button {
   font-weight: 500;
   background: linear-gradient(45deg, #ff9966, #e1eec3);
   color: #000000;
-  box-shadow: 0 0 3rem rgba(51, 51, 51, 0.15);
+  box-shadow: 0 0 1rem #000000;
   border: #000000 0.01rem solid;
   border-radius: 50%;
 }
-.conatiber,
 button:active {
+  box-shadow: 0 0 1rem #ffffff;
   border: #ffffff 0.01rem solid;
   color: #ffffff;
 }
