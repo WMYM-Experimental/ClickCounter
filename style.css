@@ -48,32 +48,7 @@ button:active {
   position: relative;
   border-radius: 4rem;
 }
-.title,
-.num {
-  font-size: 4rem;
-}
-.inc {
-  bottom: 2%;
-  right: 10%;
-}
-.dec {
-  bottom: 2%;
-  left: 10%;
-}
 
-.container {
-  padding: 10px;
-  background: linear-gradient(-45deg, #e1eec3, #ff9966);
-  width: 50vh;
-  height: 50vh;
-  color: #000000;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  position: relative;
-  border-radius: 4rem;
-}
 .title,
 .num {
   font-size: 4rem;
