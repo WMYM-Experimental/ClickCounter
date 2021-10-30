@@ -2,14 +2,14 @@ const counter = document.getElementById("num");
 const inc = document.querySelector(".inc");
 const dec = document.querySelector(".dec");
 
-let cnt = 0; //variable for counting
+let value = 0; //variable for counting
 
 inc.addEventListener("click", () => {
-  cnt++;
-  counter.innerHTML = cnt;
+  value++;
+  counter.innerHTML = value;
 });
 
 dec.addEventListener("click", () => {
-  cnt--;
-  counter.innerHTML = cnt;
+  value--;
+  counter.innerHTML = value;
 });
